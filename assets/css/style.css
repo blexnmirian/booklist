@@ -1,0 +1,29 @@
+.success, .error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+#book{
+text-align: center;
+margin-top: 50px;
+color:#009688;
+}
+
+/* body{
+  background-color: #009688;
+} */
+
+#add{
+  background-color: #009688;
+  color: white;
+  font-weight: 700;
+}

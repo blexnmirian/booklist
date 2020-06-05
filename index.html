@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/skeleton.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>BOOK LIST</title>
+</head>
+<body>
+
+  <div class="container">
+    <h4  id="book"class="center"> Book List App</h4>
+    <hr>
+    <form id="book-form">
+      <h5>Add A Book</h5>
+      <div>
+        <label for="title">Title</label>
+        <input type="text" id="title" class="u-full-width">
+      </div>
+      <div>
+        <label for="author">Author</label>
+        <input type="text" id="author" class="u-full-width">
+      </div>
+      <div>
+        <label for="isbn">ISBN Number
+        </label>
+        <input type="text" id="isbn" class="u-full-width">
+      </div>
+      <div>
+        <input type="submit" value="Add" class="u-full-width" id="add">
+      </div>
+    </form>
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+
+
+  <script src="assets/script/appEs6.js"></script>
+</body>
+</html>
+</body>
+</html>
